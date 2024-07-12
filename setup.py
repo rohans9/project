@@ -20,6 +20,7 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='project',
     version='0.0.1',
+    author='Rohan',
     author_email='rohansahu345@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
